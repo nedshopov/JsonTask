@@ -4,8 +4,8 @@ Hello,
 First of all thank you for your time! 
 
 Please take a moment to read through this text file
-as I am going to describe some design decisions and assumptions. I am currently on full-time job and chasing a project deadline.
-I could not afford to spend much more time working on this task, so I gave examples of various parts of the system on how it could be improved. Thanks for understanding!
+as I am going to describe some design decisions and assumptions. I am currently on full-time job and chasing a project deadline so
+I could not afford to spend much more time working on this task. I gave examples of various parts of the system on how it could be improved. Thanks for understanding!
 
 1. Assumptions
 
