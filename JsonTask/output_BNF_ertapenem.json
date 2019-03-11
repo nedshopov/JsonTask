@@ -1,0 +1,100 @@
+{
+"drugs": 
+[
+{
+"name":"ertapenem",
+
+"suggestedDose": [
+  {
+   "indications": [
+    "Abdominal infections",
+    "Acute gynaecological infections",
+    "Community-acquired pneumonia"
+   ],
+   "doseAdministrations": [
+    {
+     "route": "Intravenous",
+     "method": "Infusion",
+     "doses": [
+      {
+       "ageBand": {
+        "ageLow": {
+         "value": 13,
+         "unit": "year"
+        },
+        "ageHigh": {
+         "value": 17,
+         "unit": "year"
+        }
+       },
+       "quantity": {
+        "value": 1.0,
+        "unit": "g"
+       },
+       "flags": {
+        "frequency": "1 times daily as a single dose"
+       }
+      },
+      {
+       "ageBand": {
+        "ageLow": {
+         "value": 3,
+         "unit": "months"
+        },
+        "ageHigh": {
+         "value": 12,
+         "unit": "year"
+        }
+       },
+       "quantity": {
+        "value": 15.0,
+        "unit": "mg/kg"
+       },
+       "flags": {
+        "frequency": "Every 12 hour(s)"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "indications": [
+    "Diabetic foot infections of the skin and soft-tissue"
+   ],
+   "doseAdministrations": [
+    {
+     "route": "Intravenous",
+     "method": "Infusion",
+     "doses": [
+      {
+       "ageBand": {
+        "ageLow": {
+         "value": 13,
+         "unit": "year"
+        },
+        "ageHigh": {
+         "value": 17,
+         "unit": "year"
+        }
+       },
+       "quantity": {
+        "value": 1.0,
+        "unit": "g"
+       },
+       "flags": {
+        "frequency": "1 times daily as a single dose"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+
+
+
+
+}
+]
+}

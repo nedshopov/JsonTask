@@ -1,0 +1,328 @@
+{
+  "definitions": {
+    "Age": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "from": {
+          "type": [ "integer", "string" ]
+        },
+        "fromUnit": {
+          "type": "string",
+          "enum": [
+            "year",
+            "g",
+            "mg/kg",
+            "times daily as a single dose",
+            "gram(s)",
+            "mg(s)/kilogram",
+            "hour(s)",
+            "days",
+            "weeks",
+            "months",
+            "years"
+          ]
+        },
+        "to": {
+          "type": [ "string" ],
+          "pattern": "^([0-1][0-8]|[0-9])$"
+        },
+        "toUnit": {
+          "type": "string",
+          "enum": [
+            "year",
+            "g",
+            "mg/kg",
+            "times daily as a single dose",
+            "gram(s)",
+            "mg(s)/kilogram",
+            "hour(s)",
+            "days",
+            "weeks",
+            "months",
+            "years"
+          ]
+        },
+        "levelOfSupervision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "from",
+        "fromUnit",
+        "to",
+        "toUnit",
+        "levelOfSupervision"
+      ]
+    },
+    "DoseInstruction": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "doseType": {
+          "type": "string",
+          "enum": [
+            "Standard"
+          ]
+        },
+        "emergency": {
+          "type": "string"
+        },
+        "doseQuantity": {
+          "$ref": "#/definitions/DoseQuantity"
+        },
+        "frequency": {
+          "$ref": "#/definitions/DoseQuantity"
+        }
+      },
+      "required": [
+        "doseType",
+        "doseQuantity",
+        "frequency"
+      ]
+    },
+    "DoseQuantity": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "frequencyType": {
+          "type": "string",
+          "enum": [
+            "",
+            "Every"
+          ]
+        },
+        "siType": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value": {
+          "type": [ "integer", "string" ],
+          "pattern": "^[0-9]*$"
+        },
+        "unit": {
+          "type": "string",
+          "enum": [
+            "year",
+            "g",
+            "mg/kg",
+            "times daily as a single dose",
+            "gram(s)",
+            "mg(s)/kilogram",
+            "hour(s)",
+            "days",
+            "weeks",
+            "months",
+            "years"
+          ]
+        }
+      },
+      "required": [
+        "frequencyType",
+        "siType",
+        "name",
+        "value",
+        "unit"
+      ]
+    },
+    "DoseStatement": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "doseInstruction": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/DoseInstruction"
+          }
+        }
+      },
+      "required": [
+        "doseInstruction"
+      ]
+    },
+    "IndicationAndDoseGroups": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "therapeuticIndications": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/TherapeuticIndications"
+          }
+        },
+        "routesAndPatientGroups": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/RoutesAndPatientGroups"
+          }
+        }
+      },
+      "required": [
+        "therapeuticIndications",
+        "routesAndPatientGroups"
+      ]
+    },
+    "IndicationsAndDose": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "potName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "indicationAndDoseGroups": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/IndicationAndDoseGroups"
+          }
+        }
+      },
+      "required": [
+        "potName",
+        "indicationAndDoseGroups"
+      ]
+    },
+    "PatientGroup": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "age": {
+          "$ref": "#/definitions/Age"
+        },
+        "doseStatement": {
+          "$ref": "#/definitions/DoseStatement"
+        }
+      },
+      "required": [
+        "age",
+        "doseStatement"
+      ]
+    },
+    "RouteOfAdministration": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "routeOfAdministration": {
+          "type": [
+            "string"
+          ],
+          "pattern": "By intravenous infusion"
+
+        },
+        "routeForm": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "routeOfAdministration"
+      ]
+    },
+    "RoutesAndPatientGroups": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "routesOfAdministration": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/RouteOfAdministration"
+          }
+        },
+        "patientGroups": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/PatientGroup"
+          }
+        }
+      },
+      "required": [
+        "routesOfAdministration",
+        "patientGroups"
+      ]
+    },
+    "TherapeuticIndications": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "indication": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "indication"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "indicationsDose": {
+      "$ref": "#/definitions/IndicationsAndDose"
+    }
+  },
+  "required": [
+    "name",
+    "indicationsDose"
+  ]
+}

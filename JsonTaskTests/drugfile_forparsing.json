@@ -1,0 +1,760 @@
+{
+"drugs":
+[ 
+{
+"name":"drug_one",
+"indicationsDose":
+{
+ "potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Abdominal infections"
+    },
+    {
+     "indication": "Acute gynaecological infections"
+    },
+    {
+     "indication": "Community-acquired pneumonia"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "13",
+        "fromUnit": "years",
+        "to": "17",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "age": {
+        "from": "18",
+        "fromUnit": "years",
+        "to": "999",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "emergency": "false",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "age": {
+        "from": "3",
+        "fromUnit": "months",
+        "to": "12",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "emergency": "false",
+          "doseQuantity": {
+           "value": "15",
+           "frequencyType": "",
+           "unit": "mg(s)/kilogram",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "12",
+           "frequencyType": "Every",
+           "unit": "hour(s)",
+           "siType": "intervalFrequency",
+           "name": "frequency"
+          }
+         }
+        
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "therapeuticIndications": [
+    {
+     "indication": "Diabetic foot infections of the skin and soft-tissue"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion"
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "13",
+        "fromUnit": "years",
+        "to": "17",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "emergency": "false",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gr(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "age": {
+        "from": "18",
+        "fromUnit": "years",
+        "to": "999",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "emergency": "false",
+          "doseQuantity": {
+           "value": "0.1",
+           "frequencyType": "",
+           "unit": "kilogram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    } 
+   ]
+  }
+
+]
+} 
+},
+{
+"name":"drug_two",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Infection casued by pseudomonas"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By mouth",
+       "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "13",
+        "fromUnit": "years",
+        "to": "17",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+}
+,
+{
+"name":"drug_three",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Abdominal infections"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "4",
+        "fromUnit": "years",
+        "to": "17",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "-1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+}
+,
+{
+"name":"drug_four",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Anaerobic infections"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      },
+      {
+      "routeOfAdministration": "By mouth",
+      "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "3",
+        "fromUnit": "years",
+        "to": "10",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+},
+
+
+
+{
+"name":"drug_five",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Skin infections"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      },
+      {
+      "routeOfAdministration": "By mouth",
+      "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "8",
+        "fromUnit": "days",
+        "to": "15",
+        "toUnit": "days",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+},
+
+{
+"name":"drug_six",
+"indicationsDose":     
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Skin infections"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      },
+      {
+      "routeOfAdministration": "By mouth",
+      "routeForm": ""
+      }
+     ], 
+     "patientGroups": [
+      {
+       "age": {
+        "from": "3",
+        "fromUnit": "years",
+        "to": "15",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {   
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "0.1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+},
+
+{
+"name":"drug_eight",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "obstetric analgesia"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "10",
+        "fromUnit": "years",
+        "to": "2",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+},
+{
+"name":"drug_fifteen",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Pain"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "3",
+        "fromUnit": "years",
+        "to": "10",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+}, 
+
+{
+"name":"drug_ten",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Infection casued by pseudomonas"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "13",
+        "fromUnit": "years",
+        "to": "17",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "5a",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "10",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+}
+,
+{
+"name":"drug_thirteen",
+"indicationsDose":
+{
+"potName": "indicationsDose",
+ "indicationAndDoseGroups": [
+  {
+   "therapeuticIndications": [
+    {
+    "indication": "Infection casued by pseudomonas"
+    }
+   ],
+   "routesAndPatientGroups": [
+    {
+     "routesOfAdministration": [
+      {
+       "routeOfAdministration": "By intravenous infusion",
+       "routeForm": ""
+      }
+     ],
+     "patientGroups": [
+      {
+       "age": {
+        "from": "5",
+        "fromUnit": "years",
+        "to": "10",
+        "toUnit": "years",
+        "levelOfSupervision": ""
+       },
+       "doseStatement": {
+        "doseInstruction": [
+         {
+          "doseType": "Standard",
+          "doseQuantity": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "gram(s)",
+           "siType": "",
+           "name": "doseQuantity"
+          },
+          "frequency": {
+           "value": "1",
+           "frequencyType": "",
+           "unit": "times daily as a single dose",
+           "siType": "standardFrequency",
+           "name": "frequency"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+    ]
+  }
+  ]
+  }
+}
+
+
+
+ ]
+}
+

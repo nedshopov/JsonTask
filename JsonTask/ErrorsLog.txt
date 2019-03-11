@@ -1,0 +1,77 @@
+******  ERROR ********
+"name": "drug_one"
+11/03/2019 20:23:04
+String '999' does not match regex pattern '^([0-1][0-8]|[0-9])$'. Path '[0].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].patientGroups[1].age.to', line 65, position 19.
+
+
+******  ERROR ********
+"name": "drug_one"
+11/03/2019 20:23:04
+Value "gr(s)" is not defined in enum. Path '[0].indicationsDose.indicationAndDoseGroups[1].routesAndPatientGroups[0].patientGroups[0].doseStatement.doseInstruction[0].doseQuantity.unit', line 158, position 26.
+
+
+******  ERROR ********
+"name": "drug_one"
+11/03/2019 20:23:04
+String '999' does not match regex pattern '^([0-1][0-8]|[0-9])$'. Path '[0].indicationsDose.indicationAndDoseGroups[1].routesAndPatientGroups[0].patientGroups[1].age.to', line 177, position 19.
+
+
+******  ERROR ********
+"name": "drug_one"
+11/03/2019 20:23:04
+String '0.1' does not match regex pattern '^[0-9]*$'. Path '[0].indicationsDose.indicationAndDoseGroups[1].routesAndPatientGroups[0].patientGroups[1].doseStatement.doseInstruction[0].doseQuantity.value', line 187, position 25.
+
+
+******  ERROR ********
+"name": "drug_one"
+11/03/2019 20:23:04
+Value "kilogram(s)" is not defined in enum. Path '[0].indicationsDose.indicationAndDoseGroups[1].routesAndPatientGroups[0].patientGroups[1].doseStatement.doseInstruction[0].doseQuantity.unit', line 189, position 32.
+
+
+******  ERROR ********
+"name": "drug_two"
+11/03/2019 20:23:04
+String 'By mouth' does not match regex pattern 'By intravenous infusion'. Path '[1].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].routesOfAdministration[0].routeOfAdministration', line 228, position 42.
+
+
+******  ERROR ********
+"name": "drug_three"
+11/03/2019 20:23:04
+String '-1' does not match regex pattern '^[0-9]*$'. Path '[2].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].patientGroups[0].doseStatement.doseInstruction[0].doseQuantity.value', line 305, position 24.
+
+
+******  ERROR ********
+"name": "drug_four"
+11/03/2019 20:23:04
+String 'By mouth' does not match regex pattern 'By intravenous infusion'. Path '[3].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].routesOfAdministration[1].routeOfAdministration', line 350, position 41.
+
+
+******  ERROR ********
+"name": "drug_five"
+11/03/2019 20:23:04
+String 'By mouth' does not match regex pattern 'By intravenous infusion'. Path '[4].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].routesOfAdministration[1].routeOfAdministration', line 415, position 41.
+
+
+******  ERROR ********
+"name": "drug_six"
+11/03/2019 20:23:04
+String 'By mouth' does not match regex pattern 'By intravenous infusion'. Path '[5].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].routesOfAdministration[1].routeOfAdministration', line 478, position 41.
+
+
+******  ERROR ********
+"name": "drug_six"
+11/03/2019 20:23:04
+String '0.1' does not match regex pattern '^[0-9]*$'. Path '[5].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].patientGroups[0].doseStatement.doseInstruction[0].frequency.value', line 503, position 25.
+
+
+******  ERROR ********
+"name": "drug_ten"
+11/03/2019 20:23:04
+String '5a' does not match regex pattern '^[0-9]*$'. Path '[8].indicationsDose.indicationAndDoseGroups[0].routesAndPatientGroups[0].patientGroups[0].doseStatement.doseInstruction[0].doseQuantity.value', line 672, position 24.
+
+
+
+
+***************************
+
+

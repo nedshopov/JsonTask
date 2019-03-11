@@ -1,0 +1,149 @@
+{
+"drugs":
+[
+{
+ "name": "ertapenem",
+ "indicationsDose": {
+  "potName": "indicationsDose",
+  "indicationAndDoseGroups": [
+   {
+    "therapeuticIndications": [
+     {
+      "indication": "Abdominal infections"
+     },
+     {
+      "indication": "Acute gynaecological infections"
+     },
+     {
+      "indication": "Community-acquired pneumonia"
+     }
+    ],
+    "routesAndPatientGroups": [
+     {
+      "routesOfAdministration": [
+       {
+        "routeOfAdministration": "By intravenous infusion",
+        "routeForm": ""
+       }
+      ],
+      "patientGroups": [
+       {
+        "age": {
+         "from": "13",
+         "fromUnit": "years",
+         "to": "17",
+         "toUnit": "years",
+         "levelOfSupervision": ""
+        },
+        "doseStatement": {
+         "doseInstruction": [
+          {
+           "doseType": "Standard",
+           "doseQuantity": {
+            "value": "1",
+            "frequencyType": "",
+            "unit": "gram(s)",
+            "siType": "",
+            "name": "doseQuantity"
+           },
+           "frequency": {
+            "value": "1",
+            "frequencyType": "",
+            "unit": "times daily as a single dose",
+            "siType": "standardFrequency",
+            "name": "frequency"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "age": {
+         "from": "3",
+         "fromUnit": "months",
+         "to": "12",
+         "toUnit": "years",
+         "levelOfSupervision": ""
+        },
+        "doseStatement": {
+         "doseInstruction": [
+          {
+           "doseType": "Standard",
+           "emergency": "false",
+           "doseQuantity": {
+            "value": "15",
+            "frequencyType": "",
+            "unit": "mg(s)/kilogram",
+            "siType": "",
+            "name": "doseQuantity"
+           },
+           "frequency": {
+            "value": "12",
+            "frequencyType": "Every",
+            "unit": "hour(s)",
+            "siType": "intervalFrequency",
+            "name": "frequency"
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "therapeuticIndications": [
+     {
+      "indication": "Diabetic foot infections of the skin and soft-tissue"
+     }
+    ],
+    "routesAndPatientGroups": [
+     {
+      "routesOfAdministration": [
+       {
+        "routeOfAdministration": "By intravenous infusion"
+       }
+      ],
+      "patientGroups": [
+       {
+        "age": {
+         "from": "13",
+         "fromUnit": "years",
+         "to": "17",
+         "toUnit": "years",
+         "levelOfSupervision": ""
+        },
+        "doseStatement": {
+         "doseInstruction": [
+          {
+           "doseType": "Standard",
+           "emergency": "false",
+           "doseQuantity": {
+            "value": "1",
+            "frequencyType": "",
+            "unit": "gram(s)",
+            "siType": "",
+            "name": "doseQuantity"
+           },
+           "frequency": {
+            "value": "1",
+            "frequencyType": "",
+            "unit": "times daily as a single dose",
+            "siType": "standardFrequency",
+            "name": "frequency"
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
+
+]
+}
